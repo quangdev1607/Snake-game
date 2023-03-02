@@ -7,6 +7,14 @@
 
 ## Setup game screen:
 **First we have to import Screen class from turtle module**
-`from turtle import Screen`
-
+```python
+from turtle import Screen
+```
+**Then set the screen's width and height and change the background to black** using `.setup` and `.bgcolor`
+```python
+screen = Screen()
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
+```
+"Oh, don't forget to add an escape to the game: `screen.exitonclick()` - This will ensure that the game closes after running all the code and you have clicked on the screen.
 
