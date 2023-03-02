@@ -44,3 +44,5 @@ The reason is: We don't want to see the snake move part by part, we only want to
 # Control the snake to turn up, down, right, left
 Simply create 4 methods in the `snake.py` module
 And in the `main.py`, we use `screen.listen()` to listen all the events that we make (pressing keyboard). Then we create four event-setup-key for each behavior (up, down, right, left) using `screen.onkey(FUNC, KEY)`
+
+# The end---
